@@ -1,0 +1,33 @@
+QLineEdit {
+    border: 2px solid #444;
+    border-radius: 8px;
+    background-color: #333;
+    padding: 6px;
+    color: #ddd;
+}
+
+QTabWidget::pane {
+    border: 2px solid #444;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #222;
+}
+
+QTabBar::tab {
+    color: #ddd;
+    padding: 8px 16px;
+    border: 2px solid #444;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #222;
+}
+
+QTabBar::tab:selected {
+    background-color: #333;
+    border-color: #333;
+}
+
+QMainWindow {
+    background-color: #222;
+    border-radius: 10px;
+}
